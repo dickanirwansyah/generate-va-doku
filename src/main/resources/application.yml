@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: payment-service
+server:
+  port: 9999
+doku:
+  client-id: <you client id>
+  secret-key: <your secret key>
+  mandiri:
+    url-generate-va-mandiri: /mandiri-virtual-account/v2/payment-code
+    url-generate-va-sandbox: https://api-sandbox.doku.com/mandiri-virtual-account/v2/payment-code
+  bri:
+    url-generate-va-bri: /bri-virtual-account/v2/payment-code
+    url-generate-va-sandbox: https://api-sandbox.doku.com/bri-virtual-account/v2/payment-code
